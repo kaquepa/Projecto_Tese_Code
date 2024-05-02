@@ -106,8 +106,6 @@ class Decoding_GRS():
         self.compute_roots()
         self.find_error()
         print("recovered message: ",self.recover_message() )
-        
-
 alphas, betas    = [2,4,1,5,3,7,6,9,8], [2,5,1,7,2,5,1,2,3]
 message, e       = [5,1,4,2,3],[0,0,5,0,0,0,0,0,3]
 r_1, r_0         = x**4, 8*x**3 + 12*x + 7 
